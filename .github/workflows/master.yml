@@ -23,7 +23,7 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.9
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         TOKEN: ${{ secrets.TOKEN }}
         BRANCH: gh-pages
-        FOLDER: ./build
+        FOLDER: build
